@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* ---------------- FORM DESIGN ---------------- */
+form {
+    background: white;
+    padding: 25px;
+    width: 40%;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ---------------- TABLE DESIGN ---------------- */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* ---------------- BUTTON LINKS ---------------- */
+a {
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Delete Button */
+.delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #c0392b;
+}
+
+/* Resolve Button */
+.resolve {
+    background-color: #27ae60;
+    color: white;
+}
+
+.resolve:hover {
+    background-color: #1e8449;
+}
+
+/* Back / Links */
+.back {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+    background-color: #333;
+    padding: 12px;
+    text-align: right;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* ---------------- STATUS BADGES ---------------- */
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.pending {
+    background-color: orange;
+}
+
+.resolved {
+    background-color: green;
+}
+
+/* ---------------- LOGIN BOX ---------------- */
+.login-box {
+    width: 30%;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    text-align: center;
+}
